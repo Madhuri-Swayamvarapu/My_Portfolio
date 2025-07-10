@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swayamvarapu Madhuri - frontend  Portfolio</title>
+    <meta name="description" content="Personal portfolio of Swayamvarapu Madhuri - Passionate Web Developer skilled in HTML, CSS, JavaScript, React, and more" />
+    <meta name="author" content="Swayamvarapu Madhuri" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text"> Madhuri Swayamvarapu</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm  Madhuri Swayamvarapu 
+            </h1>
+            <p class="hero-subtitle">Passionate Frontend Developer</p>
+            <p class="hero-description">
+              Crafting beautiful, responsive web experiences with modern technologies.
+              Currently pursuing BTech with a focus on full-stack development.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a href="https://1drv.ms/b/c/054628a051fb6039/EUDkcWWyAyxNmOAQ5o0wJvkB6_XqYVrwLDEE3qGBDlu-Jg?e=ULtPaM" target="_blank" class="btn btn-resume" download>
+                <i class="fas fa-download"></i>
+                Download Resume
+              </a>
+              <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/madhuri-swayamvarapu-9688662a5/" target="_blank" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/Madhuri-Swayamvarapu" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:swayamvarapumadhuri@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-card">
+              <div class="profile-image">
+                <img src="images/mypic.jpg" width="500" height="600">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="glass-card">
+              <h3>Hello! I'm  Madhuri  Swayamvarapu</h3>
+              <p>
+                I'm a passionate Frontend developer with a strong foundation in  frontend technologies. 
+                Currently pursuing my BTech at Vignan's Institute of Information Technology with a CGPA of 9.03, 
+                I combine academic excellence with practical skills.
+              </p>
+              <p>
+                My journey in programming started during my diploma at Sai Ganapathi Polytechnic, where I achieved 89%. 
+                I love creating clean, efficient code and building user-friendly applications that solve real-world problems.
+              </p>
+              <div class="stats">
+                <div class="stat-item">
+                  <span class="stat-number">9.03</span>
+                  <span class="stat-label">Current CGPA</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">89%</span>
+                  <span class="stat-label">Diploma Grade</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">9.8</span>
+                  <span class="stat-label">School GPA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js-square"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 class="category-title">Programming</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <span>C</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <span>C++</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 class="category-title">Database</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="glass-card">
+                <h3>Bachelor of Technology</h3>
+                <h4>Vignan's Institute of Information Technology</h4>
+                <p class="timeline-date">Present</p>
+                <p class="timeline-grade">CGPA: 9.03</p>
+                <p>Currently pursuing BTech with focus on Computer Science and Engineering, maintaining excellent academic performance.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="glass-card">
+                <h3>Diploma in Computer & Mechanical Engineering</h3>
+                <h4>Sai Ganapathi Polytechnic</h4>
+                <p class="timeline-date">Completed</p>
+                <p class="timeline-grade">Percentage: 89%</p>
+                <p>Completed diploma with distinction, gaining strong foundation in engineering principles and programming.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="glass-card">
+                <h3>Secondary Education</h3>
+                <h4>Nirmala English Medium School</h4>
+                <p class="timeline-date">Completed</p>
+                <p class="timeline-grade">GPA: 9.8</p>
+                <p>Achieved outstanding academic performance with focus on mathematics and science subjects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Certifications Section -->
+<section id="certifications" class="certifications">
+  <div class="container">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="certifications-grid">
+      <!-- Always visible certificates -->
+      <div class="cert-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/nptelcertificate.png" alt="Certificate 1">
+          </div>
+          <div class="flip-card-back">
+            <h3>Programming in Java</h3>
+            <p>Issued by NPTEL — Covered OOP, syntax, exception handling, collections, and scored 70%.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/javafullstack.jpg" alt="Certificate 2">
+          </div>
+          <div class="flip-card-back">
+            <h3>Java Full Stack Development</h3>
+            <p>Issued by Millennium Software Solutions — Full-stack apps with Java, Spring Boot, and MySQL.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/pythonessentials.png" alt="Certificate 3">
+          </div>
+          <div class="flip-card-back">
+            <h3>Python Essentials</h3>
+            <p>Issued by Cisco — Covered Python fundamentals, data structures, scripting basics, and problem-solving.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden certificates: wrapped properly! -->
+     <div class="cert-card hidden">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/htmlessentials.png" alt="Certificate 4">
+      </div>
+      <div class="flip-card-back">
+        <h3>HTML Essentials</h3>
+        <p>Completed the HTML Essentials course by Cisco Networking Academy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cert-card hidden">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/cssessentials.png" alt="Certificate 5">
+      </div>
+      <div class="flip-card-back">
+        <h3>CSS Essentials</h3>
+        <p>Completed the CSS Essentials course by Cisco Networking Academy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cert-card hidden">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/javascriptessentials.png" alt="Certificate 6">
+      </div>
+      <div class="flip-card-back">
+        <h3>JavaScript Essentials</h3>
+        <p>Completed the JavaScript Essentials course by Cisco Networking Academy.</p>
+      </div>
+    </div>
+  </div>
+   <div class="cert-card hidden">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/webdevelopment.png" alt="Certificate 6">
+      </div>
+      <div class="flip-card-back">
+        <h3>Web Development</h3>
+        <p>Completed a Web Development course issued by EduSkills — covered HTML, CSS, JavaScript, and responsive design fundamentals for building modern websites</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- View More Button -->
+    <div class="view-more-wrapper">
+      <button id="viewMoreBtn" class="btn btn-primary">View More</button>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="glass-card">
+          <h3>Let's Connect!</h3>
+          <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+          
+          <div class="contact-items">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:swayamvarapumadhuri@gmail.com">swayamvarapumadhuri@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/madhuri-swayamvarapu-9688662a5/" target="_blank">
+                  Connect with me
+                </a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <div>
+                <h4>GitHub</h4>
+                <a href="https://github.com/Madhuri-Swayamvarapu" target="_blank">
+                  View my projects
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <div class="glass-card">
+          <!-- ✅ Formspree embedded correctly here -->
+          <form id="contactForm" action="https://formspree.io/f/xqabvjar" method="POST">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2024 Swayamvarapu Madhuri. All rights reserved.</p>
+           
+          </div>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/madhuri-swayamvarapu-9688662a5/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Madhuri-Swayamvarapu" target="_blank" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:swayamvarapumadhuri@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
